@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "generated_date": "2026-10-31",
   "inventory": [
     {
@@ -197,6 +197,13 @@
       "source": "local formatter source",
       "license": "ISC",
       "changes": "Excluded private article outputs, node_modules and article-specific browser test; generic integration check supplied."
+    },
+    {
+      "name": "wechat-07-humanize-readability",
+      "status": "original-workflow-update",
+      "source": "project-authored story openings and evidence-grounded key sentences",
+      "license": "MIT",
+      "changes": "Added source-aware story selection, grounded key sentences, examples and completion checks; routed through steps 07/08 and workflow. No additional skill or upstream humanizer changes."
     }
   ],
   "advisors": [

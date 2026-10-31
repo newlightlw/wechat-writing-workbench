@@ -18,3 +18,5 @@
 - [配图与封面风格模板](visual-prompts.md)
 
 - [历史配图提示词实例（正文图与两种比例封面）](historical-image-examples.md)
+
+- [只优化故事性开头与观点金句](../skills/wechat-07-humanize/references/prompt.md)

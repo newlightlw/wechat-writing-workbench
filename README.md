@@ -54,7 +54,9 @@ Python 3.10+；skill 安装不依赖额外 Python 包。默认安装本仓库全
 
 顾问为模拟框架；推演不等于真人观点，多视角共识不替代证据。默认单会话运行，多 Agent 是可选方式。
 
-## 去 AI 味
+## 可读性润色与去 AI 味
+
+[步骤 07](skills/wechat-07-humanize/SKILL.md) 先用有依据的故事开头带出读者问题，再提炼少量能由正文支撑的观点金句。素材、改写示例与检查标准见 [可读性参考](skills/wechat-07-humanize/references/readability.md)；故事保持真实或明确标注为假设，金句保留必要条件。
 
 以 [humanizer](skills/humanizer/SKILL.md) 为主，参考作者认可的旧文校准声音；[中文局部编辑](skills/wechat-chinese-edit/SKILL.md) 处理局部中文表达。改写后核对事实，保留判断与必要细节。
 
@@ -102,3 +104,8 @@ python3 scripts/build_release.py
 这套流程、提示词和 skill 帮助你整理材料、追问依据、审阅结构和改善表达。值得分享的内容，来自你对问题的观察、做过的实践，以及能够说明理由、接受验证与修正的判断。
 
 可以从一件具体的小事开始，认真记录自己的选择与依据。持续输出、听取反馈，再回到实践中打磨，让每篇文章成为个人经验和判断的积累。
+
+## v0.1.1 更新
+
+补齐故事性开头与观点金句的润色规则，接入步骤 07、步骤 08 和工作流；skill 总数仍为 39。
+已有安装不会被安装器覆盖。升级时先备份并比较同名目录，再手动同步本版改动的 `wechat-07-humanize`、`wechat-08-title-opening`、`wechat-article` 和 `wechat-writing-workflow`；直接读取仓库文件的用法无需重复安装。

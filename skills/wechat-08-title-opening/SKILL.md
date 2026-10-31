@@ -9,6 +9,7 @@ license: MIT
 
 读取 [本步骤提示词](references/prompt.md)，按用户材料填写变量，再执行其中相关任务。材料充分时直接推进，只澄清会改变主线的缺失信息。
 - 需要 bigpeng-hot-gzh 的方法时，读取 [对应 skill](../bigpeng-hot-gzh/SKILL.md)。
+- 首屏检查沿用 [步骤 07 的故事与金句标准](../wechat-07-humanize/references/readability.md)：故事尽快连接标题承诺，保持素材来源和事实范围。
 
 
 事实与作者经历以材料为准；教学示例、推测、未来计划明确标注。沿用用户的读者、观点与工作范围，保护已有稿件。
