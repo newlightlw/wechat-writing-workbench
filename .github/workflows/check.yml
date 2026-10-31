@@ -1,0 +1,23 @@
+name: Check bundle
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 scripts/validate.py
+      - run: python3 scripts/test_installer.py
+      - run: npm ci
+        working-directory: tools/wechat-md
+      - run: npm test
+        working-directory: tools/wechat-md
+      - run: node scripts/check_formatter.mjs
+      - run: python3 scripts/build_release.py

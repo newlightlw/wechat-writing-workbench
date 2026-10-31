@@ -1,0 +1,270 @@
+{
+  "version": "0.1.0",
+  "generated_date": "2026-10-31",
+  "inventory": [
+    {
+      "name": "wechat-article",
+      "status": "bundled-custom",
+      "source": "local writing workflow",
+      "license": "MIT (project contribution)",
+      "changes": "Preserved workflow and references; host-specific metadata normalized."
+    },
+    {
+      "name": "humanizer",
+      "status": "bundled-third-party",
+      "source": "https://github.com/blader/humanizer",
+      "license": "MIT",
+      "changes": "Portable frontmatter; core text retained. Required references included."
+    },
+    {
+      "name": "bigpeng-hot-gzh",
+      "status": "bundled-third-party",
+      "source": "https://github.com/BigPengSays/bigpeng-hot-gzh",
+      "license": "MIT",
+      "changes": "Portable frontmatter; core text retained. Required references included."
+    },
+    {
+      "name": "wechat-official-account-strategist",
+      "status": "bundled-third-party",
+      "source": "https://github.com/demo112/yunqu-ai-skills",
+      "license": "MIT",
+      "changes": "Portable metadata; historical marketing statements are not verified current platform rules."
+    },
+    {
+      "name": "avoid-ai-writing",
+      "status": "bundled-third-party-optional",
+      "source": "https://github.com/conorbronsdon/avoid-ai-writing",
+      "license": "MIT",
+      "changes": "Archived local auxiliary skill; portable metadata. Optional, not required."
+    },
+    {
+      "name": "humanize-chinese",
+      "status": "reference-only",
+      "source": "https://github.com/voidborne-d/humanize-chinese",
+      "license": "UNCONFIRMED — not redistributed",
+      "changes": "Source repository returned 404 during packaging. Original omitted; independently written wechat-chinese-edit provides the workflow capability."
+    },
+    {
+      "name": "a16z-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "alibaba-pm-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "byte-pm-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "charlie-munger-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "claude-pm-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "dan-koe-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "elon-musk-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "emotion-psychologist-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "first-principles-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "gemini-pm-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "ilya-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "jensen-huang-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "michael-polanyi-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "sam-altman-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "warren-buffett-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "yao-shunyu-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "yc-mind",
+      "status": "bundled-local-advisor",
+      "source": "local generated advisor; credits https://github.com/alchaincyf/nuwa-skill",
+      "license": "Project MIT for local contributions; Nuwa notice retained",
+      "changes": "Lowercase skill.md normalized; simulation/source-verification notice added. Local source wording retained."
+    },
+    {
+      "name": "andrej-karpathy-perspective",
+      "status": "bundled-third-party-advisor",
+      "source": "https://github.com/alchaincyf/nuwa-skill",
+      "license": "MIT",
+      "changes": "Local packaged Nuwa example with research references; historical research claims not independently revalidated."
+    },
+    {
+      "name": "paul-graham-perspective",
+      "status": "bundled-third-party-advisor",
+      "source": "https://github.com/alchaincyf/nuwa-skill",
+      "license": "MIT",
+      "changes": "Local packaged Nuwa example with research references; historical research claims not independently revalidated."
+    },
+    {
+      "name": "zhang-yiming-perspective",
+      "status": "bundled-third-party-advisor",
+      "source": "https://github.com/alchaincyf/nuwa-skill",
+      "license": "MIT",
+      "changes": "Local packaged Nuwa example with research references; historical research claims not independently revalidated."
+    },
+    {
+      "name": "think-tank",
+      "status": "adapted-custom",
+      "source": "local think-tank router",
+      "license": "MIT (project contribution)",
+      "changes": "Portable paths; repaired missing advisor routes; added editorial mode and source boundaries; original sanitized snapshot retained."
+    },
+    {
+      "name": "wechat-md",
+      "status": "bundled-custom-tool",
+      "source": "local formatter source",
+      "license": "ISC",
+      "changes": "Excluded private article outputs, node_modules and article-specific browser test; generic integration check supplied."
+    }
+  ],
+  "advisors": [
+    "a16z-mind",
+    "alibaba-pm-mind",
+    "byte-pm-mind",
+    "charlie-munger-mind",
+    "claude-pm-mind",
+    "dan-koe-mind",
+    "elon-musk-mind",
+    "emotion-psychologist-mind",
+    "first-principles-mind",
+    "gemini-pm-mind",
+    "ilya-mind",
+    "jensen-huang-mind",
+    "michael-polanyi-mind",
+    "sam-altman-mind",
+    "warren-buffett-mind",
+    "yao-shunyu-mind",
+    "yc-mind",
+    "andrej-karpathy-perspective",
+    "paul-graham-perspective",
+    "zhang-yiming-perspective"
+  ],
+  "stages": [
+    {
+      "step": "01-提炼选题",
+      "skill": "wechat-01-topic-selection"
+    },
+    {
+      "step": "02-明确写作目标",
+      "skill": "wechat-02-writing-brief"
+    },
+    {
+      "step": "03-资料与证据",
+      "skill": "wechat-03-evidence-research"
+    },
+    {
+      "step": "04-主线与大纲",
+      "skill": "wechat-04-outline"
+    },
+    {
+      "step": "05-思考天团审稿",
+      "skill": "wechat-05-review"
+    },
+    {
+      "step": "06-初稿与迭代",
+      "skill": "wechat-06-draft"
+    },
+    {
+      "step": "07-去AI味与声音校准",
+      "skill": "wechat-07-humanize"
+    },
+    {
+      "step": "08-标题与首屏",
+      "skill": "wechat-08-title-opening"
+    },
+    {
+      "step": "09-配图与封面",
+      "skill": "wechat-09-illustrations"
+    },
+    {
+      "step": "10-终审排版与发布包",
+      "skill": "wechat-10-publish"
+    },
+    {
+      "step": "11-发布后复盘",
+      "skill": "wechat-11-retrospective"
+    }
+  ]
+}
